@@ -1,0 +1,20 @@
+Langraph is a library for building stateful,multi actor applciations with LLMs,use to create an agent and multi agent workflows.Compare to other LLM frameworks ,it offers these 
+core benefits ,cycles,contllability and persistence .Langraph allows you to define flows that involve cycles,essentials for most agentic architectures,differentiating rom DAG based solutions
+
+DAG : Directed Acyclic Graph (DAG) based solutions are gaining traction in various fields due to their unique structure and advantages. 
+
+
+Why Langraph : Simplifies development,whenever we develop multi agent ai, we have 
+State management ,agent co-ordination ,
+Let's assume 
+            Agent 1 -> Google search
+ Chat ->   Agent 2 -> Wikipedia search  --> Static management &Agent Co-ordination (Agent 1 response may be depends on Agent 2)--> 
+ Bot       Agent 3 -> Vector search
+
+
+ Flexibility : Langraph provides tools eactly what to do.
+ Scalability --> Large scale multi agent applciations (It can handle high volume of interaction) the interactions can be between agents and complex workflows
+
+
+Fault Tolerance :
+ Handle errors, fault tolerance ,reliability 
